@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
           });
         });
         print(
-            'Latitude : ${position.latitude} Longatude ${position.longitude}');
+            'Latitude : ${position.latitude} Longitude ${position.longitude}');
       });
     }
     isCalledOnce = false;
